@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #5e4b8b;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .details {
+            background-color: #e2d9f3;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+        }
+        .button {
+            background-color: #5e4b8b;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #4a3b6e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Приглашение на нашу свадьбу!</h1>
+        <p>Дорогие друзья! Мы с радостью приглашаем вас разделить с нами самый важный день в нашей жизни!</p>
+
+        <div class="details">
+            <h2>Дата и время:</h2>
+            <p>12 июня 2025 года, 16:00</p>
+            <h2>Место:</h2>
+            <p>Ресторан "Золотая звезда", ул. Примерная, 5</p>
+        </div>
+
+        <p>Ждем вас с нетерпением и надеемся, что этот день станет особенным для всех нас!</p>
+        
+        <a href="mailto:your-email@example.com" class="button">Подтвердить участие</a>
+
+        <div class="footer">
+            <p>Если у вас возникнут вопросы, пишите нам на <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
